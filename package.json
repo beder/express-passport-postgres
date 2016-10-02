@@ -1,0 +1,29 @@
+{
+  "name": "express-passport-postgres",
+  "version": "0.0.1",
+  "description": "Authentication application built with Express, Passport and Postgres",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "express": "express"
+  },
+  "author": {
+    "name": "Beder Acosta Borges",
+    "url": "https://bederacostaborg.es/"
+  },
+  "license": "ISC",
+  "repository": "beder/express-passport-postgres",
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "express-generator": "^4.13.4"
+  }
+}
